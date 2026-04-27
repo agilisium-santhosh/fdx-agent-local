@@ -1,0 +1,748 @@
+{
+  "curriculum_id": "CUR-2026-001",
+  "title": "AI ML Engineer — Learning Path",
+  "curriculum_ref": "ai_ml_engineer",
+  "assessment_ref": null,
+  "role": "AI ML Engineer",
+  "domain": "Life Sciences",
+  "total_duration_hours": 40,
+  "pillars_covered": [
+    "Domain Literacy",
+    "AI Literacy",
+    "Problem Solving",
+    "Communication Skills",
+    "Business Acumen",
+    "Outcome Oriented"
+  ],
+  "generated": "2026-04-27T08:10:02.374Z",
+  "_meta": {
+    "curriculum_id": "CUR-2026-001",
+    "role": "AI ML Engineer",
+    "total_modules": 6,
+    "total_units": 19,
+    "total_activities": 41,
+    "generated_at": "2026-04-27T08:10:02.374Z"
+  },
+  "modules": [
+    {
+      "id": "MOD-001",
+      "title": "Foundations of GenAI & LLMs",
+      "pillar": "Domain Literacy",
+      "duration_hours": 5,
+      "learning_objectives": [
+        "Explain how generative AI and large language models function at a conceptual level and why they're transformative for ML engineering workflows",
+        "Analyse the role of GenAI in life sciences applications — drug discovery, clinical documentation, regulatory writing, and patient data synthesis"
+      ],
+      "units": [
+        {
+          "id": "UNT-001-01",
+          "title": "What Are GenAI & LLMs?",
+          "duration_hours": 1.5,
+          "learning_objectives": [
+            "Describe the core concepts of LLMs, foundation models, and how they differ from classical ML approaches"
+          ],
+          "activities": [
+            {
+              "id": "ACT-001-01-01",
+              "type": "reading",
+              "title": "GenAI Fundamentals: From Transformers to Foundation Models",
+              "duration_minutes": 40,
+              "description": "Read a focused overview of how LLMs work conceptually (no deep architecture). Covers why LLMs are different from traditional ML, token-based processing, and the emergence of foundation models."
+            },
+            {
+              "id": "ACT-001-01-02",
+              "type": "video",
+              "title": "LLMs Explained for Engineers",
+              "duration_minutes": 25,
+              "description": "Watch a 25-minute walkthrough of LLM capabilities, limitations, and use cases — designed for technical audiences, focuses on practical implications rather than mathematical foundations."
+            },
+            {
+              "id": "ACT-001-01-03",
+              "type": "quiz",
+              "title": "LLM Concepts Check",
+              "duration_minutes": 15,
+              "description": "Answer 4 questions: What is a foundation model? How do tokens work? Name 2 differences between LLMs and classical ML. What's prompt engineering?"
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-01-01",
+              "type": "text",
+              "title": "Unit 1.1 Brief: LLM Fundamentals",
+              "source": "synthesized",
+              "content_summary": "Core LLM mechanics — token prediction, context windows, and probabilistic text generation. Explains why LLMs differ fundamentally from traditional supervised learning: LLMs predict the next token incrementally rather than fitting a fixed prediction rule. Foundation models extend this paradigm across multiple modalities. Key concepts: transformers enable efficient long-range token relationships, prompt engineering improves output quality, and in-context learning allows task adaptation without fine-tuning."
+            }
+          ]
+        },
+        {
+          "id": "UNT-001-02",
+          "title": "GenAI Applications in Life Sciences",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Identify real-world GenAI applications in pharmaceutical and clinical environments"
+          ],
+          "activities": [
+            {
+              "id": "ACT-001-02-01",
+              "type": "reading",
+              "title": "GenAI in Drug Discovery & Clinical Research",
+              "duration_minutes": 45,
+              "description": "Read case studies and examples: AI-assisted literature synthesis for drug discovery, clinical trial protocol generation, real-world evidence analysis, pharmacovigilance signal detection. Frames how GenAI accelerates regulatory and R&D workflows."
+            },
+            {
+              "id": "ACT-001-02-02",
+              "type": "case_study",
+              "title": "Analyzing a GenAI Workflow in a Real Trial Environment",
+              "duration_minutes": 75,
+              "description": "Study a structured case: A clinical operations team uses GenAI to flag protocol deviations and generate deviation summaries. Analyze: What was the business problem? How did GenAI help? What risks or limitations exist? Produce a 1-page written analysis."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-02-01",
+              "type": "text",
+              "title": "Unit 1.2 Brief: GenAI in Pharma & Clinical Research",
+              "source": "synthesized",
+              "content_summary": "Focuses on pharma-specific GenAI use cases: AI-assisted literature synthesis for drug discovery, automated clinical trial protocol generation, real-world evidence analysis, and pharmacovigilance signal detection. Emphasizes how GenAI accelerates regulatory workflows — reducing protocol drafting time, automating adverse event aggregation, and enabling early safety signal identification. Domain context: trial enrollment challenges, data quality issues, regulatory compliance timelines."
+            }
+          ]
+        },
+        {
+          "id": "UNT-001-03",
+          "title": "Why GenAI Matters for ML Engineers",
+          "duration_hours": 1.5,
+          "learning_objectives": [
+            "Evaluate why understanding GenAI is critical for modern ML engineering roles"
+          ],
+          "activities": [
+            {
+              "id": "ACT-001-03-01",
+              "type": "reading",
+              "title": "The ML Engineer's Role in a GenAI World",
+              "duration_minutes": 35,
+              "description": "Read about how ML engineers interact with GenAI systems: data quality for foundation models, evaluation of LLM outputs, prompt engineering workflows, responsible AI oversight. Reframes traditional ML skills in the GenAI era."
+            },
+            {
+              "id": "ACT-001-03-02",
+              "type": "discussion",
+              "title": "What Skills Do ML Engineers Need Now?",
+              "duration_minutes": 40,
+              "description": "Facilitated reflection: In breakout groups or asynchronously, discuss what new capabilities ML engineers must develop. How does your current skillset translate? What gaps exist? Share reflections in a structured discussion."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-03-01",
+              "type": "text",
+              "title": "Unit 1.3 Brief: ML Engineer Role Evolution",
+              "source": "synthesized",
+              "content_summary": "Shifts mindset from classical model training to foundation model usage. ML engineers in the GenAI era focus on data quality for LLMs, evaluating LLM outputs against task requirements, designing prompt pipelines, and implementing responsible AI oversight. Key insight: the role evolves from 'build better models' to 'engineer systems around powerful pre-built models.' Skills gap: understanding when fine-tuning vs. in-context learning is appropriate, recognizing hallucination risks, and building human-in-the-loop validation workflows."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-002",
+      "title": "Practical GenAI & Agentic AI Tools",
+      "pillar": "AI Literacy",
+      "duration_hours": 5,
+      "learning_objectives": [
+        "Demonstrate proficiency in using GenAI tools (Claude, ChatGPT, GitHub Copilot) for real professional workflows — data analysis, code generation, documentation",
+        "Apply agentic AI patterns to understand autonomous workflows and multi-step problem-solving orchestration"
+      ],
+      "units": [
+        {
+          "id": "UNT-002-01",
+          "title": "Using GenAI Tools Effectively in Daily Workflows",
+          "duration_hours": 1.5,
+          "learning_objectives": [
+            "Apply prompt engineering techniques to generate high-quality outputs for professional tasks"
+          ],
+          "activities": [
+            {
+              "id": "ACT-002-01-01",
+              "type": "reading",
+              "title": "Prompt Engineering for Engineers: Patterns & Best Practices",
+              "duration_minutes": 40,
+              "description": "Read practical patterns: chain-of-thought prompting, role-based prompting, output formatting, iterative refinement. Focus on real-world scenarios: generating test cases, drafting emails, structuring analyses."
+            },
+            {
+              "id": "ACT-002-01-02",
+              "type": "exercise",
+              "title": "Hands-On Prompt Engineering Challenge",
+              "duration_minutes": 50,
+              "description": "Use Claude or ChatGPT to complete 3 tasks: (1) Generate a data quality check framework for a clinical dataset, (2) Draft a stakeholder summary of trial results, (3) Produce pseudocode for anomaly detection. Refine prompts based on output quality. Document what worked."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-01-01",
+              "type": "text",
+              "title": "Unit 2.1 Brief: Prompt Engineering Patterns",
+              "source": "synthesized",
+              "content_summary": "Practical patterns for prompt engineering: specificity (define exact context), few-shot examples (show input-output pairs), chain-of-thought (ask reasoning steps), and role-based prompting (assign persona). Real workflows: generating test cases, drafting regulatory summaries, structuring data analysis plans. Anti-patterns: vague instructions, asking multiple unrelated tasks in one prompt, expecting deterministic outputs. Iterative refinement: how to evaluate and improve LLM outputs through prompt feedback loops."
+            }
+          ]
+        },
+        {
+          "id": "UNT-002-02",
+          "title": "Agentic AI & Autonomous Workflows",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Analyse how agentic AI orchestrates multi-step problem-solving and recognize agentic patterns in client environments"
+          ],
+          "activities": [
+            {
+              "id": "ACT-002-02-01",
+              "type": "reading",
+              "title": "Agentic AI Patterns: Autonomous Problem-Solving & Tool Use",
+              "duration_minutes": 45,
+              "description": "Read how autonomous agents work: tool use, planning, step-by-step execution, error recovery. Examples: multi-step data analysis workflows, document review agents, automated hypothesis testing. Frame for consulting: where are clients using agents? What risks/benefits?"
+            },
+            {
+              "id": "ACT-002-02-02",
+              "type": "case_study",
+              "title": "Recognizing & Designing an Agentic Workflow",
+              "duration_minutes": 75,
+              "description": "Study a case: A biotech company uses an autonomous agent to process real-world evidence data — extract key metrics, flag safety signals, generate reports. Analyze: What is the agent doing? What tools does it use? What could go wrong? Design a 1-page workflow architecture for a similar problem in your domain."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-02-01",
+              "type": "text",
+              "title": "Unit 2.2 Brief: Agentic AI Design Patterns",
+              "source": "synthesized",
+              "content_summary": "Agentic AI enables multi-step reasoning and execution: agents decompose complex tasks into subtasks, use external tools (databases, APIs), monitor progress, and adapt based on feedback. Key design patterns: ReAct (reasoning + acting), tool use (agents calling external resources), reflection (self-critique loops), and human-in-the-loop (escalating uncertain decisions to humans). Life sciences example: a clinical data analysis agent that fetches trial metadata, flags quality issues, recommends corrective actions, and escalates ambiguous cases to human reviewers."
+            }
+          ]
+        },
+        {
+          "id": "UNT-002-03",
+          "title": "AI Tools in Your ML Engineering Toolkit",
+          "duration_hours": 1.5,
+          "learning_objectives": [
+            "Integrate GenAI and agentic tools into practical ML engineering workflows"
+          ],
+          "activities": [
+            {
+              "id": "ACT-002-03-01",
+              "type": "exercise",
+              "title": "Building a Workflow with GenAI + Agentic Concepts",
+              "duration_minutes": 50,
+              "description": "Design a hybrid workflow: Use GenAI (Claude/ChatGPT) for initial problem breakdown and documentation. Use agentic thinking to orchestrate a multi-step data analysis task. Example: Draft an analysis plan for anomaly detection in trial data, then outline how an autonomous agent would execute it step-by-step."
+            },
+            {
+              "id": "ACT-002-03-02",
+              "type": "quiz",
+              "title": "GenAI & Agentic AI Proficiency Check",
+              "duration_minutes": 20,
+              "description": "Answer 5 questions: What is the difference between prompt engineering and agentic orchestration? Name 2 tools you'd use in an ML workflow. What are 3 risks of autonomous agents? Give 1 example of tool use in an agent."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-03-01",
+              "type": "text",
+              "title": "Unit 2.3 Brief: GenAI & Agentic Integration",
+              "source": "synthesized",
+              "content_summary": "Hands-on integration: using Claude/ChatGPT for problem breakdown and documentation, designing agentic pipelines for multi-step analyses, orchestrating workflows using LangChain or similar frameworks. Practical scenarios: drafting analysis plans with GenAI, building autonomous data quality checks, using agents to summarize complex datasets. Governance: when to use GenAI (high-volume tasks, content generation, synthesis), when to avoid (safety-critical decisions, high-stakes predictions)."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-003",
+      "title": "Problem Solving with AI-Driven Data Analysis",
+      "pillar": "Problem Solving",
+      "duration_hours": 8,
+      "learning_objectives": [
+        "Analyse complex data problems using domain knowledge and AI tools to surface patterns, root causes, and actionable insights",
+        "Design AI-augmented problem-solving workflows for clinical and regulatory data scenarios"
+      ],
+      "units": [
+        {
+          "id": "UNT-003-01",
+          "title": "Framing Problems with Domain & AI Context",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Interpret ambiguous data problems in life sciences contexts using clinical, regulatory, and operational framing"
+          ],
+          "activities": [
+            {
+              "id": "ACT-003-01-01",
+              "type": "reading",
+              "title": "Problem Framing in Clinical & Regulatory Contexts",
+              "duration_minutes": 45,
+              "description": "Read: How do clinical teams define 'problems'? What does a protocol deviation mean? How do regulatory bodies think about data integrity issues? How do trial operations teams prioritize problems? Frames problem-solving in domain language."
+            },
+            {
+              "id": "ACT-003-01-02",
+              "type": "exercise",
+              "title": "Reframing a Messy Data Scenario",
+              "duration_minutes": 75,
+              "description": "Given a real (anonymized) clinical data challenge: trial enrollment is slower than expected, data quality flags are rising, certain sites show anomalies. Use AI (Claude) to help you articulate: What is the actual problem? What are root causes vs. symptoms? What data do you need? Produce a structured problem statement."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-003-01-01",
+              "type": "text",
+              "title": "Unit 3.1 Brief: Problem Framing in Clinical Domains",
+              "source": "synthesized",
+              "content_summary": "Clinical problems are rarely stated crisply. 'Trial enrollment is slow' masks root causes: site selection issues, recruitment strategy misalignment, protocol complexity, or investigator capacity. Domain literacy essential: understanding regulatory constraints, clinical feasibility, data governance. Using GenAI to surface problem hypotheses: prompt LLMs with messy problem descriptions and data samples to generate structured problem statements. Framing examples: converting operational complaints into measurable outcome definitions."
+            }
+          ]
+        },
+        {
+          "id": "UNT-003-02",
+          "title": "Using AI to Surface Patterns & Insights",
+          "duration_hours": 3,
+          "learning_objectives": [
+            "Apply AI tools and analytical reasoning to uncover hidden patterns in life sciences data"
+          ],
+          "activities": [
+            {
+              "id": "ACT-003-02-01",
+              "type": "reading",
+              "title": "AI-Driven Root Cause Analysis in Pharma & Biotech",
+              "duration_minutes": 40,
+              "description": "Read: How do companies use AI to flag safety signals, protocol deviations, enrollment bottlenecks? What patterns can LLMs help identify in unstructured data (clinical notes, emails, reports)? Real examples from pharmacovigilance and trial operations."
+            },
+            {
+              "id": "ACT-003-02-02",
+              "type": "case_study",
+              "title": "Solving a Real Trial Operations Problem with AI",
+              "duration_minutes": 90,
+              "description": "Case: A Phase 2 trial is missing enrollment targets. Sites differ in performance. Using AI, you analyze recruitment emails, protocol amendments, investigator feedback. Use GenAI to help synthesize patterns: Why are some sites struggling? What's common across high-performers? Produce a data-driven diagnosis and 2–3 recommendations."
+            },
+            {
+              "id": "ACT-003-02-03",
+              "type": "discussion",
+              "title": "Evaluating AI Insights — When to Trust, When to Verify",
+              "duration_minutes": 30,
+              "description": "Facilitated discussion: How do you validate AI-generated insights? What biases might an AI analysis introduce? How do you present uncertain findings to stakeholders? Share one scenario where you'd trust AI fully, and one where you'd be skeptical."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-003-02-01",
+              "type": "text",
+              "title": "Unit 3.2 Brief: AI Pattern Recognition in Clinical Data",
+              "source": "synthesized",
+              "content_summary": "AI tools excel at pattern recognition in large, unstructured datasets: identifying safety signal clusters in adverse event reports, flagging site enrollment anomalies, detecting data quality patterns. Techniques: using GenAI to analyze clinical notes, NLP on email/communication data, statistical anomaly detection. Validation critical: AI surfaces patterns, domain experts validate."
+            }
+          ]
+        },
+        {
+          "id": "UNT-003-03",
+          "title": "Designing Solutions with AI Augmentation",
+          "duration_hours": 3,
+          "learning_objectives": [
+            "Synthesise problem-solving approaches that combine domain expertise, analytical rigor, and AI assistance"
+          ],
+          "activities": [
+            {
+              "id": "ACT-003-03-01",
+              "type": "exercise",
+              "title": "From Problem to Solution: An AI-Augmented Workflow",
+              "duration_minutes": 100,
+              "description": "Take your problem statement from UNT-003-01. Use AI to: (1) Generate hypotheses about root causes, (2) Propose 3–5 solution approaches, (3) Model outcomes of each approach, (4) Recommend prioritization. Document your AI-augmented reasoning. Compare: how is this different from solving without AI?"
+            },
+            {
+              "id": "ACT-003-03-02",
+              "type": "case_study",
+              "title": "Implementing & Validating an AI-Informed Solution",
+              "duration_minutes": 80,
+              "description": "Case: A biotech company implements an AI-driven protocol deviation detection system. What does success look like? How do they validate it works? What false positives/negatives matter most? What governance is needed? Produce a 2-page implementation & validation plan."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-003-03-01",
+              "type": "text",
+              "title": "Unit 3.3 Brief: AI-Augmented Solution Design",
+              "source": "synthesized",
+              "content_summary": "From hypothesis to solution: using AI to model multiple intervention scenarios, predict outcomes, and prioritize by impact and feasibility. Workflow: (1) Use GenAI to brainstorm solution approaches, (2) Model each approach's ROI/timeline/risk, (3) Recommend prioritization, (4) Design validation logic. AI as collaborator, not oracle: AI generates, humans decide."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-004",
+      "title": "Communicating AI Insights & Findings",
+      "pillar": "Communication Skills",
+      "duration_hours": 8,
+      "learning_objectives": [
+        "Communicate complex AI-driven insights to diverse stakeholders (clinical, regulatory, commercial, technical) with confidence and clarity",
+        "Translate algorithmic outputs, uncertainty, and limitations into actionable business language"
+      ],
+      "units": [
+        {
+          "id": "UNT-004-01",
+          "title": "Structured Thinking & Problem–Solution Alignment",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Organize AI findings using a top-down logical structure before communicating"
+          ],
+          "activities": [
+            {
+              "id": "ACT-004-01-01",
+              "type": "reading",
+              "title": "Structured Thinking for Technical Communicators",
+              "duration_minutes": 40,
+              "description": "Read: How to build pyramids (situation → complication → resolution). How to avoid information overload. How to align every claim to the stakeholder's actual question. Examples from clinical and regulatory communication."
+            },
+            {
+              "id": "ACT-004-01-02",
+              "type": "exercise",
+              "title": "Structuring an AI Finding for a Specific Stakeholder",
+              "duration_minutes": 80,
+              "description": "You have an AI analysis: 'ML identified 47 protocol deviations across 12 sites, flagged 8 as high-priority safety signals, and recommended 3 sites for retraining.' Restructure this finding for 3 different audiences: (1) A trial operations director (action-focused), (2) A regulatory affairs manager (compliance-focused), (3) A data scientist colleague (method-focused). Show how your structure changes per audience."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-004-01-01",
+              "type": "text",
+              "title": "Unit 4.1 Brief: Pyramid Principle for AI Communication",
+              "source": "synthesized",
+              "content_summary": "Pyramid principle: situation → complication → resolution. Avoid information overload by leading with the answer, then supporting evidence. For AI findings: state the insight clearly, explain what it means operationally, recommend an action. All 6 soft-skill sub-competencies appear: structured thinking, requirement understanding, clear articulation, stakeholder confidence, problem-solution alignment, written precision."
+            }
+          ]
+        },
+        {
+          "id": "UNT-004-02",
+          "title": "Requirement Understanding & Clear Articulation",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Interpret stakeholder needs accurately and clarify ambiguous requests before responding"
+          ],
+          "activities": [
+            {
+              "id": "ACT-004-02-01",
+              "type": "reading",
+              "title": "Listening & Clarifying: The Hidden Skill in Technical Communication",
+              "duration_minutes": 40,
+              "description": "Read: How to ask sharp follow-up questions. How to detect when a stakeholder's stated need differs from their actual need. Techniques for bridging gaps without making assumptions. Real scenarios from consulting projects."
+            },
+            {
+              "id": "ACT-004-02-02",
+              "type": "exercise",
+              "title": "Turning Vague Requests into Specific Deliverables",
+              "duration_minutes": 80,
+              "description": "Scenario: A clinical operations VP says, 'We need better data on site performance.' What do they actually mean? Using AI, draft 5 clarifying questions. Then, propose 3 different AI-driven analyses that could answer different interpretations of their need. Choose one and outline what you'd deliver, and why it matches their real need."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-004-02-01",
+              "type": "text",
+              "title": "Unit 4.2 Brief: Requirement Clarification",
+              "source": "synthesized",
+              "content_summary": "'We need better data on site performance' could mean enrollment metrics, data quality, protocol adherence, or investigator training readiness. Sharp questions uncover actual need. Once you understand, translate to AI-driven analysis: different stakeholder needs require different ML metrics."
+            }
+          ]
+        },
+        {
+          "id": "UNT-004-03",
+          "title": "Stakeholder Confidence & Problem–Solution Alignment",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Present findings with assurance; connect every recommendation visibly back to the stated problem"
+          ],
+          "activities": [
+            {
+              "id": "ACT-004-03-01",
+              "type": "reading",
+              "title": "Building Trust When Presenting Uncertain Findings",
+              "duration_minutes": 40,
+              "description": "Read: How to communicate confidence levels and limitations honestly. How to handle pushback and disagreement. How to present worst-case scenarios without undermining credibility. Examples: presenting preliminary AI results, flagging model uncertainty, recommending further validation."
+            },
+            {
+              "id": "ACT-004-03-02",
+              "type": "case_study",
+              "title": "Presenting an AI Solution with Visible Problem Linkage",
+              "duration_minutes": 80,
+              "description": "Case: You've built an ML model to predict trial dropout risk. Present your findings to a skeptical sponsor. Structure: (1) Restate the problem they asked you to solve, (2) Explain your solution approach, (3) Show results with caveats, (4) Tie every recommendation back to the original problem. Draft a 10-minute presentation outline. Include how you'd handle: 'How accurate is this really?' 'Can we deploy it now?'"
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-004-03-01",
+              "type": "text",
+              "title": "Unit 4.3 Brief: Trust & Transparent Communication",
+              "source": "synthesized",
+              "content_summary": "Communicate uncertain AI results honestly: lead with the insight and confidence level, explain what drives the uncertainty, recommend actions given the uncertainty band. Building trust through acknowledging limitations rather than false certainty."
+            }
+          ]
+        },
+        {
+          "id": "UNT-004-04",
+          "title": "Written Precision & All Six Sub-Competencies",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Produce written communication (reports, emails, summaries) that is concise, precise, and free of ambiguity"
+          ],
+          "activities": [
+            {
+              "id": "ACT-004-04-01",
+              "type": "exercise",
+              "title": "Writing an AI-Driven Data Summary for Multiple Formats",
+              "duration_minutes": 60,
+              "description": "Write 3 versions of the same AI finding: (1) A 1-page executive summary (for a CMO or CFO), (2) A technical appendix (for data engineers and analysts), (3) A regulatory submission excerpt (for compliance). Show how precision, structure, and audience awareness differ. Demonstrate all 6 soft-skill sub-competencies."
+            },
+            {
+              "id": "ACT-004-04-02",
+              "type": "discussion",
+              "title": "Evaluating Communication Quality: Real Feedback Loops",
+              "duration_minutes": 40,
+              "description": "Facilitated discussion: Share one communication you've written that missed the mark. What went wrong? How would you rewrite it? Peer feedback: What works in strong technical writing? What common pitfalls appear? Reflect on how AI can help refine communication (using GenAI to draft, edit, and adapt)."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-004-04-01",
+              "type": "text",
+              "title": "Unit 4.4 Brief: Audience-Adapted Written Communication",
+              "source": "synthesized",
+              "content_summary": "Three versions of same finding: (1) Executive summary, (2) Technical appendix, (3) Regulatory submission. Demonstrates all 6 soft-skill sub-competencies in action within different formats and audiences."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-005",
+      "title": "Business Impact & ROI of AI Solutions",
+      "pillar": "Business Acumen",
+      "duration_hours": 6,
+      "learning_objectives": [
+        "Evaluate the business drivers and commercial value of AI investments in life sciences — cost, timeline, regulatory, and revenue impact",
+        "Model business scenarios that demonstrate how AI accelerates outcomes and improves ROI"
+      ],
+      "units": [
+        {
+          "id": "UNT-005-01",
+          "title": "AI Economics in Pharma & Biotech",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Analyse how AI investments translate to commercial value in drug development and patient care"
+          ],
+          "activities": [
+            {
+              "id": "ACT-005-01-01",
+              "type": "reading",
+              "title": "The Business Case for AI in Life Sciences",
+              "duration_minutes": 45,
+              "description": "Read: How AI accelerates time-to-market in drug discovery. How AI improves trial efficiency and reduces costs. What's the economic impact of faster enrollment, better site performance, and earlier safety signal detection? Real numbers from pharma and biotech companies."
+            },
+            {
+              "id": "ACT-005-01-02",
+              "type": "case_study",
+              "title": "Building an ROI Model for an AI Initiative",
+              "duration_minutes": 75,
+              "description": "Case: A biotech company is considering an AI system to predict clinical trial site performance and flag at-risk sites early. Build a simple ROI model: What are the costs (development, deployment, maintenance)? What are the benefits (fewer delayed sites, faster enrollment, reduced protocol violations)? What's the payback period? What assumptions are you making? What's your recommendation?"
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-005-01-01",
+              "type": "text",
+              "title": "Unit 5.1 Brief: AI ROI in Pharma",
+              "source": "synthesized",
+              "content_summary": "AI ROI in pharma: faster enrollment → earlier commercial launch → revenue acceleration. Other value: faster regulatory review, improved trial quality, better site selection. Key metrics: enrollment velocity, protocol deviation rates, time-to-database lock, regulatory approval timeline."
+            }
+          ]
+        },
+        {
+          "id": "UNT-005-02",
+          "title": "Connecting AI to Strategic Outcomes",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Link AI projects to measurable business outcomes — enrollment, revenue, regulatory approval, market share"
+          ],
+          "activities": [
+            {
+              "id": "ACT-005-02-01",
+              "type": "reading",
+              "title": "From Metrics to Outcomes: Aligning AI with Business Goals",
+              "duration_minutes": 40,
+              "description": "Read: How to translate ML metrics (accuracy, F1 score, AUC) into business language. Life sciences examples: enrollment gains → timeline reduction → earlier commercialization → revenue. Safety signal detection → regulatory credibility → market access."
+            },
+            {
+              "id": "ACT-005-02-02",
+              "type": "exercise",
+              "title": "Translating an AI Project into Business Impact",
+              "duration_minutes": 80,
+              "description": "You have an ML project: automated protocol deviation flagging (current accuracy: 87%). For a sponsor or internal stakeholder, translate: What does 87% accuracy mean for trial operations? How many deviations will be caught vs. missed? What's the operational impact (cost, timeline, risk)? What's the business value? Build a 1-page business case that connects the technical capability to bottom-line impact."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-005-02-01",
+              "type": "text",
+              "title": "Unit 5.2 Brief: Metrics-to-Outcomes Translation",
+              "source": "synthesized",
+              "content_summary": "ML metrics (accuracy, F1 score) don't translate to business language. Bridge: translate technical metrics to operational impact to business value. Example: 87% accuracy on protocol deviation detection means catching ~40 of 47 deviations monthly."
+            }
+          ]
+        },
+        {
+          "id": "UNT-005-03",
+          "title": "Scenario Planning & Strategic Investment",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Synthesise strategic recommendations by modelling different AI investment scenarios"
+          ],
+          "activities": [
+            {
+              "id": "ACT-005-03-01",
+              "type": "exercise",
+              "title": "Scenario Modeling: Invest Now vs. Wait vs. Partner",
+              "duration_minutes": 70,
+              "description": "Scenario: A pharmaceutical company must decide: Build an AI-driven drug discovery platform in-house (high cost, long timeline, high control), license an existing platform (lower cost, faster time-to-value), or partner with a biotech AI specialist (shared risk, shared benefit). Use AI to model each scenario: costs, timelines, risks, competitive advantage, ROI. What's your recommendation and why?"
+            },
+            {
+              "id": "ACT-005-03-02",
+              "type": "discussion",
+              "title": "Balancing Innovation Risk & Business Reality",
+              "duration_minutes": 30,
+              "description": "Facilitated discussion: Where do AI investments fail? What's the difference between a strong business case and hype? How do you present uncertain ROI to skeptical CFOs? What guardrails help de-risk AI bets? Share one AI project you've seen succeed and one that didn't — what made the difference?"
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-005-03-01",
+              "type": "text",
+              "title": "Unit 5.3 Brief: Strategic AI Investment Scenarios",
+              "source": "synthesized",
+              "content_summary": "Three paths: Build in-house, license SaaS, or partner. Scenario modeling for each: cost, timeline, failure risk, competitive advantage, ROI. Recommendation depends on organization size, innovation strategy, capital availability, timeline pressure."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-006",
+      "title": "Delivering AI Outcomes & Measuring Impact",
+      "pillar": "Outcome Oriented",
+      "duration_hours": 8,
+      "learning_objectives": [
+        "Design measurement frameworks that track AI project outcomes against domain-specific milestones (trial enrollment, regulatory timelines, safety compliance, commercial launch)",
+        "Execute delivery strategies that use AI to monitor progress, flag risks, and accelerate closure"
+      ],
+      "units": [
+        {
+          "id": "UNT-006-01",
+          "title": "Defining Success in Domain Terms",
+          "duration_hours": 2,
+          "learning_objectives": [
+            "Establish measurable outcomes tied to clinical, regulatory, and commercial milestones"
+          ],
+          "activities": [
+            {
+              "id": "ACT-006-01-01",
+              "type": "reading",
+              "title": "Outcome Metrics That Matter in Life Sciences",
+              "duration_minutes": 45,
+              "description": "Read: What does success look like for a clinical trial? For a regulatory submission? For a commercial launch? How do you define 'on time,' 'on budget,' and 'de-risked'? Real examples: enrollment velocity, protocol deviation rates, safety signal turnaround time, market share gains."
+            },
+            {
+              "id": "ACT-006-01-02",
+              "type": "exercise",
+              "title": "Designing a Success Dashboard for an AI Project",
+              "duration_minutes": 75,
+              "description": "You're delivering an AI system for real-world evidence analysis to support a regulatory submission. Define: What outcomes matter most (speed, accuracy, regulatory credibility)? How will you measure them? What's your target by project close? Design a 1-page dashboard that tracks: (1) Project milestones (% complete), (2) Outcome metrics (enrollment, submission readiness, safety signals detected), (3) Risk flags."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-006-01-01",
+              "type": "text",
+              "title": "Unit 6.1 Brief: Outcome Metrics Framework",
+              "source": "synthesized",
+              "content_summary": "Success in trials = enrollment velocity, data lock on time, regulatory approval. For each AI initiative: baseline, target, timeline. Measurement framework: leading indicators (weekly site performance vs. predictions), lagging indicators (final enrollment, regulatory approval). Dashboard tracks project milestones, outcome metrics, and risk flags."
+            }
+          ]
+        },
+        {
+          "id": "UNT-006-02",
+          "title": "AI-Powered Delivery & Risk Monitoring",
+          "duration_hours": 3,
+          "learning_objectives": [
+            "Automate tracking and flagging to accelerate delivery and surface blockers before they escalate"
+          ],
+          "activities": [
+            {
+              "id": "ACT-006-02-01",
+              "type": "reading",
+              "title": "Using AI to Monitor Delivery in Real Time",
+              "duration_minutes": 45,
+              "description": "Read: How autonomous systems and AI dashboards monitor project health continuously. Examples: AI-flagged trial sites that are off-track, AI-detected data quality issues before they block submissions, automated alerts for regulatory compliance gaps. How does this differ from manual reporting?"
+            },
+            {
+              "id": "ACT-006-02-02",
+              "type": "case_study",
+              "title": "Implementing AI-Driven Delivery Monitoring",
+              "duration_minutes": 100,
+              "description": "Case: A multi-center trial is at risk — site enrollment is slower than expected, protocol deviations are rising, data quality flags are increasing. You implement an AI monitoring system that tracks all three continuously and alerts the trial operations team to intervening sites and root causes. Design the monitoring system: What data feeds into it? What triggers an alert? How do you action alerts? What's the impact on delivery? Produce a 2-page system design."
+            },
+            {
+              "id": "ACT-006-02-03",
+              "type": "discussion",
+              "title": "From Insight to Action: Turning AI Alerts into Outcomes",
+              "duration_minutes": 30,
+              "description": "Facilitated discussion: You get an AI alert: 'Site X is 20% behind enrollment target, and their data quality flags are double the average.' Now what? Who does what? What's your decision tree? How do you balance intervention risk vs. doing nothing? Share a real scenario where quick action mattered."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-006-02-01",
+              "type": "text",
+              "title": "Unit 6.2 Brief: AI-Driven Real-Time Monitoring",
+              "source": "synthesized",
+              "content_summary": "Autonomous monitoring: AI systems continuously track trial KPIs and alert when thresholds breach. Governance: which alerts trigger auto-action, which escalate to humans. Reduces reactive firefighting; enables proactive management."
+            }
+          ]
+        },
+        {
+          "id": "UNT-006-03",
+          "title": "Closure, Learning, & Sustained Impact",
+          "duration_hours": 3,
+          "learning_objectives": [
+            "Evaluate project outcomes against baseline, extract lessons learned, and drive sustained capability improvement"
+          ],
+          "activities": [
+            {
+              "id": "ACT-006-03-01",
+              "type": "exercise",
+              "title": "Post-Project Outcome Assessment",
+              "duration_minutes": 90,
+              "description": "A clinical trial using AI-driven site monitoring concludes. You analyze: Baseline enrollment target was 400 patients in 18 months. With AI, you enrolled 410 in 16 months. What's the business impact (cost saved, revenue acceleration, competitive advantage)? What went well? What would you do differently? What capabilities did your team build? Produce a 2-page post-project report covering outcomes, lessons learned, and recommendations for the next trial."
+            },
+            {
+              "id": "ACT-006-03-02",
+              "type": "case_study",
+              "title": "Scaling AI Outcomes Across the Organization",
+              "duration_minutes": 60,
+              "description": "Case: One trial succeeded with AI. Now your organization wants to scale the approach across 8 more trials. What governance, training, and tooling is needed? What risks appear at scale? How do you maintain consistency and quality? Design a 1-page scaling strategy."
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-006-03-01",
+              "type": "text",
+              "title": "Unit 6.3 Brief: Outcome Closure & Scaling",
+              "source": "synthesized",
+              "content_summary": "Post-trial assessment: compare baseline vs. outcome, quantify impact, extract lessons, and document for scaling. Each trial teaches the next. Build organizational capability through systematic learning."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
