@@ -1,0 +1,354 @@
+{
+  "curriculum_id": "CUR-2026-001",
+  "title": "AI ML Engineer — Learning Path",
+  "curriculum_ref": "ai_ml_engineer",
+  "assessment_ref": null,
+  "role": "AI ML Engineer",
+  "domain": "Life Sciences",
+  "total_duration_hours": 4.5,
+  "pillars_covered": [
+    "AI Literacy",
+    "Domain Literacy",
+    "Problem Solving",
+    "Communication Skills"
+  ],
+  "generated": "2026-04-29T08:27:48.482Z",
+  "_meta": {
+    "curriculum_id": "CUR-2026-001",
+    "role": "AI ML Engineer",
+    "total_modules": 4,
+    "total_units": 6,
+    "total_activities": 12,
+    "generated_at": "2026-04-29T08:27:48.482Z"
+  },
+  "modules": [
+    {
+      "id": "MOD-001",
+      "title": "Generative AI Fundamentals for ML Engineers",
+      "pillar": "AI Literacy",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Explain how Large Language Models work and their relevance to pharmaceutical ML applications",
+        "Apply prompt engineering techniques to extract actionable insights from LLMs in professional workflows"
+      ],
+      "units": [
+        {
+          "id": "UNT-001-01",
+          "title": "What LLMs Are and Why ML Engineers Should Care",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Describe the core capabilities of Large Language Models and their differences from classical ML",
+            "Identify practical use cases for LLMs in life sciences and pharmaceutical workflows"
+          ],
+          "activities": [
+            {
+              "id": "ACT-001-01-01",
+              "type": "reading",
+              "title": "LLMs for Pharma ML Engineers: A Foundation",
+              "duration_minutes": 25,
+              "description": "Read a focused brief on what LLMs are, how they differ from classical ML models, and why pharmaceutical companies are adopting them for tasks like literature synthesis, clinical documentation support, and regulatory writing. Concrete pharma examples grounded throughout."
+            },
+            {
+              "id": "ACT-001-01-02",
+              "type": "quiz",
+              "title": "Understanding LLM Capabilities",
+              "duration_minutes": 20,
+              "description": "Answer 5 questions testing comprehension of LLM fundamentals and pharma applications.",
+              "questions": [
+                "You're comparing LLM-based document summarization to a classical supervised ML model trained on labeled summaries. Why might the LLM produce more contextually relevant summaries despite never being trained on your specific domain?",
+                "What is the primary difference between how Large Language Models predict the next word versus how classical supervised ML models make predictions?",
+                "A pharmaceutical company wants to fine-tune an LLM for protocol deviation detection but has limited compute resources. According to the brief, what technique has made this more feasible, and how does it differ from traditional fine-tuning?",
+                "Generative AI is broader than LLMs alone. Why is this distinction important for a pharma ML engineer designing an AI solution?",
+                "Why do LLMs acquire 'emergent capabilities' at larger scales, and how is this different from classical ML models that are trained on static, fixed-size datasets?"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-01-01",
+              "type": "text",
+              "title": "What LLMs Are and Why ML Engineers Should Care — Unit Brief",
+              "document_id": "00ee4bfd-20bf-4f73-bce5-9f498c0ea128",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/04/b5a3c107-9e12-405c-b771-099284f4fb8b.md",
+              "source_document_ids": [
+                "841a632b-d36e-49b3-bc23-0feef75f89d6",
+                "64d40880-e542-4d54-b4c6-5ae7f470b5d8",
+                "28c2ce1b-9827-4925-a2f6-7be77f2bf756"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UNT-001-02",
+          "title": "Prompt Engineering Essentials",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Demonstrate effective prompt engineering patterns for structured outputs from LLMs",
+            "Apply quality evaluation techniques to assess LLM outputs before using them in deliverables"
+          ],
+          "activities": [
+            {
+              "id": "ACT-001-02-01",
+              "type": "reading",
+              "title": "Prompt Engineering Patterns for Pharma Workflows",
+              "duration_minutes": 25,
+              "description": "Read structured patterns for prompting LLMs to produce reliable outputs: role-based prompts, few-shot examples, and output framing. Includes real pharma examples: summarizing trial protocols, drafting regulatory talking points, analyzing safety signals from adverse event data."
+            },
+            {
+              "id": "ACT-001-02-02",
+              "type": "quiz",
+              "title": "Applying Prompt Engineering",
+              "duration_minutes": 20,
+              "description": "Answer 6 questions testing prompt engineering knowledge and application.",
+              "questions": [
+                "You're building a system to help regulatory teams draft clinical trial protocols. Should you use a zero-shot prompt or a few-shot prompt with examples of high-quality protocols? Why?",
+                "What is the primary difference between few-shot prompting and zero-shot prompting, and when would you use each approach in a pharma setting?",
+                "A safety monitoring team wants an LLM to extract adverse events from clinical trial reports and classify them by severity. How would you structure a prompt (role, task, output format) to maximize consistency and accuracy?",
+                "You've prompted an LLM to summarize a complex drug mechanism study. The output is verbose and misses key details. Should you adjust the temperature and top_p parameters, or revise the prompt itself?",
+                "Chain-of-Thought (CoT) prompting requires the LLM to explain its reasoning step-by-step. In what pharma scenarios would CoT be valuable, and when might it be unnecessary?",
+                "Before using an LLM-generated regulatory summary in a submission, what quality evaluation steps should you take to ensure it meets regulatory standards?"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-02-01",
+              "type": "text",
+              "title": "Prompt Engineering Essentials — Unit Brief",
+              "document_id": "4a722fdd-27ba-4628-ae85-7ba2519f4be1",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/04/1206f3a5-f3f7-4421-abc3-88aee513ebbb.md",
+              "source_document_ids": [
+                "64d40880-e542-4d54-b4c6-5ae7f470b5d8",
+                "da8b9399-64b3-4459-8356-036d6b3ff2c3"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-002",
+      "title": "Domain Applications: AI in Life Sciences",
+      "pillar": "Domain Literacy",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Identify key stages of the pharmaceutical value chain and data requirements at each stage",
+        "Analyse real-world use cases where AI/ML and domain knowledge intersect in drug discovery, trials, and commercialization"
+      ],
+      "units": [
+        {
+          "id": "UNT-002-01",
+          "title": "The Pharma Value Chain Through an ML Lens",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Describe the stages of drug development from discovery through post-market surveillance and the key data at each stage"
+          ],
+          "activities": [
+            {
+              "id": "ACT-002-01-01",
+              "type": "reading",
+              "title": "Pharma Value Chain for Data & ML Engineers",
+              "duration_minutes": 25,
+              "description": "Read an overview of the pharmaceutical value chain: drug discovery (target identification, compound screening), preclinical & clinical development (trial design, patient enrollment, safety monitoring), regulatory submission, and pharmacovigilance. For each stage, understand the data landscape, compliance requirements, and where ML/AI adds value. Focus on what an engineer needs to know about data governance, quality, and lineage at each stage."
+            },
+            {
+              "id": "ACT-002-01-02",
+              "type": "quiz",
+              "title": "Value Chain Comprehension",
+              "duration_minutes": 20,
+              "description": "Answer 6 questions testing comprehension of pharma value chain stages and data requirements.",
+              "questions": [
+                "What are the main stages of drug development, and why is patient enrollment critical for trial data quality?",
+                "Describe the difference between preclinical and clinical development stages. What types of data are generated at each stage?",
+                "What is pharmacovigilance and why does it require real-time data monitoring capabilities in pharma systems?",
+                "An ML engineer is designing a data pipeline for a clinical trial. How does the clinical trial phase (Phase I, II, or III) affect the data complexity and monitoring requirements?",
+                "You're building a system to track drug development timelines from discovery through approval. Which stage(s) are most dependent on data quality and governance standards, and why?",
+                "A pharma company wants to use real-world evidence (RWE) alongside traditional clinical trial data. What data infrastructure and governance challenges must an ML engineer address?"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-01-01",
+              "type": "text",
+              "title": "The Pharma Value Chain Through an ML Lens — Unit Brief",
+              "document_id": "9f4863d2-ca93-4342-9f90-2d48aaa288f1",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/04/20c5c3cb-2e24-43cb-8437-5daa99f8a8bb.md",
+              "source_document_ids": [
+                "63938ff0-e4a8-4e28-af48-f0747fb6e81d",
+                "5c95cce4-bd6d-4d12-a20e-3997134da6c3",
+                "341bd7c2-3f0d-4ffe-9a55-57f06c62ec85"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UNT-002-02",
+          "title": "Domain Applications: Where AI Adds Real Value",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Analyse concrete pharma scenarios where AI/LLMs enhance productivity and reduce risk"
+          ],
+          "activities": [
+            {
+              "id": "ACT-002-02-01",
+              "type": "reading",
+              "title": "AI-Enhanced Pharma Workflows: Real Use Cases",
+              "duration_minutes": 25,
+              "description": "Read 4–5 detailed use cases: (1) AI-assisted literature synthesis for target validation in drug discovery, (2) LLM support for protocol deviation analysis in clinical trials, (3) AI-driven adverse event signal detection in safety monitoring, (4) LLM-generated regulatory submission drafts (with human review). For each case, explain the domain challenge, where AI helps, and what an ML engineer needs to understand about the workflow. Emphasize that AI augments domain experts; it does not replace judgment."
+            },
+            {
+              "id": "ACT-002-02-02",
+              "type": "quiz",
+              "title": "Applying Domain Knowledge to AI Workflows",
+              "duration_minutes": 20,
+              "description": "Answer 6 questions testing application of domain knowledge to AI workflows.",
+              "questions": [
+                "A clinical trial has high protocol deviations. How could AI help identify patterns in deviations, and why is human domain expertise critical in interpreting the results?",
+                "Why is human review mandatory for LLM-generated regulatory documents before submission, even if the AI output appears complete and accurate?",
+                "In drug discovery, AI can assist with literature synthesis to identify potential drug targets. What are the risks of relying solely on AI for this task without domain expert validation?",
+                "An ML engineer is building a safety signal detection system using adverse event reports. What domain knowledge must they understand about pharmacovigilance workflows to design an effective system?",
+                "How does AI-driven demand forecasting improve supply chain efficiency in pharma, and what role does domain knowledge play in interpreting the predictions?",
+                "You're designing an AI system for protocol deviation analysis in clinical trials. What pharma domain constraints (regulatory, data quality, privacy) would you need to account for?"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-02-01",
+              "type": "text",
+              "title": "Domain Applications: Where AI Adds Real Value — Unit Brief",
+              "document_id": "a403ca14-58fe-4abd-aad9-0625cde02c51",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/04/18f4567d-8c77-47a7-a556-db395c6171fd.md",
+              "source_document_ids": [
+                "4c9ecf1b-89ff-49d5-a144-8dba3d69bd7f"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-003",
+      "title": "Designing AI Solutions Under Constraints",
+      "pillar": "Problem Solving",
+      "duration_hours": 1,
+      "learning_objectives": [
+        "Analyse pharma ML challenges and apply domain literacy + AI literacy to design solutions under regulatory, data, and business constraints",
+        "Evaluate trade-offs between AI sophistication, interpretability, and deployment feasibility in life sciences contexts"
+      ],
+      "units": [
+        {
+          "id": "UNT-003-01",
+          "title": "Problem-Solving in Regulated Pharma Environments",
+          "duration_hours": 1,
+          "learning_objectives": [
+            "Apply domain knowledge and AI capabilities to structure solutions for realistic pharma ML problems with competing constraints",
+            "Evaluate trade-offs between AI sophistication, interpretability, and deployment feasibility in life sciences contexts"
+          ],
+          "activities": [
+            {
+              "id": "ACT-003-01-01",
+              "type": "reading",
+              "title": "Constraint-Based Problem Solving: Pharma Scenarios",
+              "duration_minutes": 30,
+              "description": "Read 3 realistic pharma ML problem scenarios: (1) A sponsor needs to identify high-risk patient cohorts in a trial but must preserve interpretability for regulatory review. How do you choose between black-box ML and explainable AI? (2) A safety team wants AI-driven adverse event classification but faces data quality issues and limited labeled examples. What's your approach? (3) A biotech needs faster patient enrollment prediction but cannot integrate external data due to privacy regulations. What trade-offs exist? For each, the reading frames the domain constraint (regulatory, data quality, privacy) and shows how to apply AI literacy (tool selection, model design) while respecting domain-specific limits."
+            },
+            {
+              "id": "ACT-003-01-02",
+              "type": "quiz",
+              "title": "Problem-Solving Under Constraints",
+              "duration_minutes": 30,
+              "description": "Answer 6 questions testing problem-solving under pharma constraints.",
+              "questions": [
+                "You're building a safety signal detection system. Regulatory requires interpretability. LLMs are creative but uninterpretable. Classical ML is explainable but may miss signals. How would you structure the solution?",
+                "Why is domain expertise as important as AI prowess when solving pharma ML problems? Provide an example from regulated environments.",
+                "A pharma company wants to use AI for patient enrollment prediction but cannot integrate external datasets due to privacy regulations. What alternative data sources or techniques could you use?",
+                "What questions would you ask the safety team before recommending a specific AI tool or model architecture?",
+                "If data quality is poor in a clinical trial dataset, what's your first move — improve the data quality first, or choose a more robust algorithm that tolerates noise?",
+                "How do you communicate trade-offs between AI sophistication, interpretability, and deployment feasibility to non-technical stakeholders like regulatory affairs teams?"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-003-01-01",
+              "type": "text",
+              "title": "Problem-Solving in Regulated Pharma Environments — Unit Brief",
+              "document_id": "0383608c-d108-4e36-9241-49234e92c2a3",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/04/fa801c27-0c95-4a78-be6b-aa1b1e479981.md",
+              "source_document_ids": [
+                "a403ca14-58fe-4abd-aad9-0625cde02c51",
+                "4c9ecf1b-89ff-49d5-a144-8dba3d69bd7f"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-004",
+      "title": "Communicating AI Value to Stakeholders",
+      "pillar": "Communication Skills",
+      "duration_hours": 0.5,
+      "learning_objectives": [
+        "Translate technical AI/ML capabilities into clear, non-technical stakeholder language",
+        "Structure communication around business value and risk, not technical detail"
+      ],
+      "units": [
+        {
+          "id": "UNT-004-01",
+          "title": "From Technical to Stakeholder Communication",
+          "duration_hours": 0.5,
+          "learning_objectives": [
+            "Demonstrate clear articulation and structured thinking by translating AI concepts into stakeholder-relevant language",
+            "Apply requirement understanding by identifying what different audiences need to hear"
+          ],
+          "activities": [
+            {
+              "id": "ACT-004-01-01",
+              "type": "reading",
+              "title": "Communication Bridge: Technical to Business",
+              "duration_minutes": 15,
+              "description": "Read a guide on translating AI/ML concepts for non-technical pharma audiences: executives care about time-to-value and risk; regulators care about explainability and validation; clinicians care about how it changes their workflow. Structure: (1) Avoid jargon — replace 'transformer model' with 'AI that learns patterns from data'; (2) Lead with value — 'reduces protocol deviation detection time from weeks to days' not 'implements unsupervised clustering'; (3) Address concerns proactively — 'This system flags candidates; humans make final decisions'; (4) Tailor by audience — CFO gets ROI, Head of Safety gets risk mitigation, Trial Ops gets efficiency gain. Real pharma examples included. Covers structured thinking (leading with business value), requirement understanding (what each audience needs), and clear articulation (jargon-free)."
+            },
+            {
+              "id": "ACT-004-01-02",
+              "type": "quiz",
+              "title": "Stakeholder Communication Mastery",
+              "duration_minutes": 15,
+              "description": "Answer 6 questions testing stakeholder communication skills.",
+              "questions": [
+                "You're pitching an LLM-based protocol deviation tool to a clinical operations team. What's your opening sentence — technical or business value? Why?",
+                "A regulator asks: 'How do you know the AI won't introduce bias?' How do you respond in non-technical terms without oversimplifying?",
+                "An executive asks for ROI on an AI pilot. What metrics matter most — accuracy, speed, cost savings, or risk reduction? How do you tailor your answer?",
+                "Describe how you would communicate a limitation of an AI system without undermining stakeholder trust.",
+                "Why is requirement understanding critical when communicating AI concepts? Provide an example where different stakeholders need different messaging.",
+                "How would your pitch for an AI tool differ if you're speaking to a data scientist versus a trial sponsor? What key differences would you include?"
+              ]
+            }
+          ],
+          "materials": [
+            {
+              "id": "MAT-004-01-01",
+              "type": "text",
+              "title": "From Technical to Stakeholder Communication — Unit Brief",
+              "document_id": "1d5e1029-7445-4d6e-a060-e2275db87b84",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/04/70dc06ec-f843-4321-8315-0a2710b663b1.md",
+              "source_document_ids": [
+                "4e3b6f93-1dc3-42e4-a766-119224a327fa",
+                "5a29872a-d19c-49cb-ae4a-8a081c0df73c"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
