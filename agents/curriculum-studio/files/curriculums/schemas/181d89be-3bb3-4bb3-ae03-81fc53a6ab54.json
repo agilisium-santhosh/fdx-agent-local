@@ -1,0 +1,269 @@
+{
+  "curriculum_id": "CUR-2026-001",
+  "title": "AI ML Engineer — Learning Path",
+  "curriculum_ref": "ai_ml_engineer",
+  "assessment_ref": null,
+  "role": "AI ML Engineer",
+  "domain": "Life Sciences",
+  "total_duration_hours": 5,
+  "pillars_covered": [
+    "Domain Literacy",
+    "AI Literacy",
+    "Outcome Oriented"
+  ],
+  "generated": "2026-05-21T11:57:01.393Z",
+  "_meta": {
+    "curriculum_id": "CUR-2026-001",
+    "role": "AI ML Engineer",
+    "total_modules": 3,
+    "total_units": 6,
+    "total_activities": 0,
+    "generated_at": "2026-05-21T11:57:01.393Z"
+  },
+  "modules": [
+    {
+      "id": "MOD-001",
+      "title": "AI & GenAI in Life Sciences",
+      "pillar": "Domain Literacy",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Identify the key stages of the Life Sciences value chain and explain how AI is reshaping each stage",
+        "Describe the regulatory and data governance constraints that define how AI and ML solutions must be designed and deployed in pharma and biotech contexts"
+      ],
+      "units": [
+        {
+          "id": "UNT-001-01",
+          "title": "The Life Sciences Value Chain & AI's Role",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Identify the core phases of drug development — from target identification through post-market surveillance — and map current GenAI and ML use cases to each phase",
+            "Explain why Life Sciences AI applications differ from general enterprise AI in terms of data sensitivity, regulatory scrutiny, and validation requirements"
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-01-01",
+              "type": "html",
+              "title": "The Life Sciences Value Chain & AI's Role — Unit Brief (HTML)",
+              "document_id": "e98b167b-8b2c-412e-9666-c68c43b94663",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/89497cc0-5095-45a4-aa0b-b14481166f6a.html",
+              "source_document_ids": [
+                "f7023d0a-1333-4815-aecf-7b75db925713",
+                "c39d28b2-0e2c-4c76-b81a-2ac41e672090",
+                "5c2f4438-e7c5-486a-9332-fa5af51bb9f6",
+                "21bfe2b6-8c1d-4baa-bbaf-145b3d616d67"
+              ]
+            },
+            {
+              "id": "MAT-001-01-02",
+              "type": "md",
+              "title": "The Life Sciences Value Chain & AI's Role — Unit Brief",
+              "document_id": "45109356-c726-461e-812f-42d1929a5165",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/45109356-c726-461e-812f-42d1929a5165.md",
+              "source_document_ids": [
+                "f7023d0a-1333-4815-aecf-7b75db925713",
+                "c39d28b2-0e2c-4c76-b81a-2ac41e672090",
+                "5c2f4438-e7c5-486a-9332-fa5af51bb9f6",
+                "21bfe2b6-8c1d-4baa-bbaf-145b3d616d67"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UNT-001-02",
+          "title": "Regulatory Landscape & Data Governance for AI in Pharma",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Describe key regulatory frameworks governing AI use in Life Sciences (FDA guidance on AI/ML-based software, GxP data integrity, ICH E6 Good Clinical Practice) and their implications for ML engineers",
+            "Distinguish between compliant and non-compliant AI deployment patterns in a clinical or regulatory context"
+          ],
+          "materials": [
+            {
+              "id": "MAT-001-02-01",
+              "type": "html",
+              "title": "Regulatory Landscape & Data Governance for AI in Pharma — Unit Brief (HTML)",
+              "document_id": "9842eded-ee09-4011-865c-bbf03a858ec1",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/5ba7ebeb-4e9e-4e60-92ed-bfce3d4a9fdd.html",
+              "source_document_ids": [
+                "93fab66e-1d9f-4020-b8ca-0d616694e88b",
+                "c970ad91-bd1c-4200-9329-8ff35608da39"
+              ]
+            },
+            {
+              "id": "MAT-001-02-02",
+              "type": "md",
+              "title": "Regulatory Landscape & Data Governance for AI in Pharma — Unit Brief",
+              "document_id": "0ec2e250-2b65-48d4-ae07-77ad7437749e",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/0ec2e250-2b65-48d4-ae07-77ad7437749e.md",
+              "source_document_ids": [
+                "93fab66e-1d9f-4020-b8ca-0d616694e88b",
+                "c970ad91-bd1c-4200-9329-8ff35608da39"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-002",
+      "title": "Applying GenAI in Life Sciences Workflows",
+      "pillar": "AI Literacy",
+      "duration_hours": 2,
+      "learning_objectives": [
+        "Apply GenAI tools (Claude, GitHub Copilot, ChatGPT) to accelerate common ML engineering tasks within Life Sciences workflows — including clinical data summarisation, documentation drafting, and code review",
+        "Demonstrate effective prompt engineering techniques tailored to pharma and biotech contexts, evaluating AI outputs for accuracy, bias, and regulatory appropriateness",
+        "Identify agentic AI patterns relevant to Life Sciences engagements and explain how they can be applied to automate repetitive analytical or reporting tasks"
+      ],
+      "units": [
+        {
+          "id": "UNT-002-01",
+          "title": "GenAI Tools for ML Engineers in Life Sciences",
+          "duration_hours": 1,
+          "learning_objectives": [
+            "Apply GenAI productivity tools (Claude, Copilot, Gemini) to real ML engineering tasks in LS settings — such as drafting technical documentation, summarising trial protocols, and reviewing analysis code",
+            "Evaluate GenAI outputs for fitness-for-purpose in regulated Life Sciences environments, identifying hallucination risks and compliance considerations"
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-01-01",
+              "type": "html",
+              "title": "GenAI Tools for ML Engineers in Life Sciences — Unit Brief (HTML)",
+              "document_id": "edcbb35e-badf-4806-a9bd-f71362f9b332",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/bf631637-f0fd-44f9-a819-5efdcb20ca3d.html",
+              "source_document_ids": [
+                "b32b677a-0893-40ee-9462-0685b0213743"
+              ]
+            },
+            {
+              "id": "MAT-002-01-02",
+              "type": "md",
+              "title": "GenAI Tools for ML Engineers in Life Sciences — Unit Brief",
+              "document_id": "4e91fbdb-8e3a-4154-b5f0-48a359c04a34",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/4e91fbdb-8e3a-4154-b5f0-48a359c04a34.md",
+              "source_document_ids": [
+                "b32b677a-0893-40ee-9462-0685b0213743"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UNT-002-02",
+          "title": "Prompt Engineering & Agentic AI Patterns in Pharma Contexts",
+          "duration_hours": 1,
+          "learning_objectives": [
+            "Construct effective prompts for domain-specific Life Sciences tasks — including adverse event summarisation, regulatory document drafting, and clinical data interpretation",
+            "Identify agentic AI design patterns (tool-use agents, multi-step reasoning chains) and describe how they apply to automating LS analytical workflows without introducing unacceptable regulatory risk"
+          ],
+          "materials": [
+            {
+              "id": "MAT-002-02-01",
+              "type": "html",
+              "title": "Prompt Engineering & Agentic AI Patterns in Pharma Contexts — Unit Brief (HTML)",
+              "document_id": "82081ae8-bdec-436c-863f-3edf07047145",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/00f58c69-3f39-404b-90b4-e9b4d3aab7c0.html",
+              "source_document_ids": [
+                "98ac8ee3-1fe6-4c19-97ee-cec7e9a44a62"
+              ]
+            },
+            {
+              "id": "MAT-002-02-02",
+              "type": "md",
+              "title": "Prompt Engineering & Agentic AI Patterns in Pharma Contexts — Unit Brief",
+              "document_id": "459c27dc-f395-41f3-b06e-bc2e29ae66ba",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/459c27dc-f395-41f3-b06e-bc2e29ae66ba.md",
+              "source_document_ids": [
+                "98ac8ee3-1fe6-4c19-97ee-cec7e9a44a62"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "MOD-003",
+      "title": "Delivering AI Outcomes for Life Sciences Clients",
+      "pillar": "Outcome Oriented",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Define measurable delivery outcomes for AI/ML initiatives in Life Sciences engagements — grounded in domain-relevant KPIs such as trial cycle time reduction, submission readiness, and data quality SLAs",
+        "Apply GenAI tools to monitor delivery progress, identify risks early, and communicate outcome status clearly to Life Sciences stakeholders",
+        "Evaluate the impact of an AI/ML engagement against pre-defined client outcomes, using domain-specific evidence to demonstrate value delivered"
+      ],
+      "units": [
+        {
+          "id": "UNT-003-01",
+          "title": "Defining & Measuring AI Outcomes in Life Sciences Engagements",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Construct a measurable outcome framework for an AI/ML project in a pharma or biotech context, mapping deliverables to domain KPIs (e.g. patient enrolment velocity, data lock timelines, regulatory submission accuracy)",
+            "Distinguish between effort-based and outcome-based success metrics, and explain why the latter matters more in Life Sciences client engagements"
+          ],
+          "materials": [
+            {
+              "id": "MAT-003-01-01",
+              "type": "html",
+              "title": "Defining & Measuring AI Outcomes in Life Sciences Engagements — Unit Brief (HTML)",
+              "document_id": "755366ec-d334-4080-a676-02e01f06c997",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/9887e937-86f1-4f10-b9fa-5e150ba089d4.html",
+              "source_document_ids": [
+                "0c766065-917e-456e-8fe6-736353da0412"
+              ]
+            },
+            {
+              "id": "MAT-003-01-02",
+              "type": "md",
+              "title": "Defining & Measuring AI Outcomes in Life Sciences Engagements — Unit Brief",
+              "document_id": "1fd471ab-ff15-4240-88a7-eb3d5959764c",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/1fd471ab-ff15-4240-88a7-eb3d5959764c.md",
+              "source_document_ids": [
+                "0c766065-917e-456e-8fe6-736353da0412"
+              ]
+            }
+          ]
+        },
+        {
+          "id": "UNT-003-02",
+          "title": "Using AI to Accelerate Delivery & Demonstrate Client Impact",
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Apply GenAI tools to automate progress tracking, flag delivery risks, and generate stakeholder-ready status reports in a Life Sciences project context",
+            "Demonstrate how AI-assisted delivery practices translate into visible, measurable client impact — connecting technical outputs to business outcomes such as faster regulatory approval timelines or improved trial data quality"
+          ],
+          "materials": [
+            {
+              "id": "MAT-003-02-01",
+              "type": "html",
+              "title": "Using AI to Accelerate Delivery & Demonstrate Client Impact — Unit Brief (HTML)",
+              "document_id": "e7aaf54d-76ec-4ede-8864-604aefb64d54",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/84394f1c-ac3e-4a92-baa5-ce897026f39c.html",
+              "source_document_ids": [
+                "536cd8d3-531d-4c9e-b61a-e8b7bbb01b42"
+              ]
+            },
+            {
+              "id": "MAT-003-02-02",
+              "type": "md",
+              "title": "Using AI to Accelerate Delivery & Demonstrate Client Impact — Unit Brief",
+              "document_id": "c0ab6d9b-a7cf-43a6-90a9-8cf13c02f326",
+              "source": "synthesized",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/05/c0ab6d9b-a7cf-43a6-90a9-8cf13c02f326.md",
+              "source_document_ids": [
+                "536cd8d3-531d-4c9e-b61a-e8b7bbb01b42"
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
