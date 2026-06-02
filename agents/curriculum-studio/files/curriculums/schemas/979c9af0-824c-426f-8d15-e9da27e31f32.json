@@ -1,0 +1,325 @@
+{
+  "role": "Generative AI Engineer",
+  "_meta": {
+    "role": "Generative AI Engineer",
+    "total_units": 6,
+    "curriculum_id": "CUR-2026-001",
+    "last_saved_at": "2026-06-02T11:56:14.148Z",
+    "total_modules": 3,
+    "total_activities": 0
+  },
+  "title": "Generative AI Engineer — Learning Path",
+  "domain": "Life Sciences",
+  "modules": [
+    {
+      "id": "MOD-001",
+      "title": "GenAI in Life Sciences — Context & Landscape",
+      "units": [
+        {
+          "id": "UNT-001-01",
+          "title": "The Life Sciences Domain Through a GenAI Lens",
+          "materials": [
+            {
+              "id": "MAT-001-01-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/e6abb963-69c3-45b7-b66e-4a70b054c28b.html",
+              "type": "html",
+              "title": "The Life Sciences Domain Through a GenAI Lens (HTML)",
+              "source": "synthesized",
+              "document_id": "e3e1d7c6-bcd6-448e-9528-8718af17de8f",
+              "source_document_ids": [
+                "60b6707b-12d5-4bb1-ba05-c0eb8b539953"
+              ]
+            },
+            {
+              "id": "MAT-001-01-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/81760ed7-b5c6-45a2-bc6e-e689aa68c1c2.flashcards.json",
+              "type": "flashcard",
+              "title": "The Life Sciences Domain Through a GenAI Lens (Flashcards)",
+              "source": "synthesized",
+              "document_id": "ec3b93a8-f939-47af-a7b3-bde6474de04e",
+              "source_document_ids": [
+                "60b6707b-12d5-4bb1-ba05-c0eb8b539953"
+              ]
+            },
+            {
+              "id": "MAT-001-01-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/d74ac50e-a144-45e4-be9e-1ce6e421fbdf.md",
+              "type": "md",
+              "title": "The Life Sciences Domain Through a GenAI Lens — Unit Brief",
+              "source": "synthesized",
+              "document_id": "d74ac50e-a144-45e4-be9e-1ce6e421fbdf",
+              "source_document_ids": [
+                "60b6707b-12d5-4bb1-ba05-c0eb8b539953"
+              ]
+            }
+          ],
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Describe the core workflows in Life Sciences (clinical, R&D, commercial, regulatory) where GenAI is actively changing how work is done",
+            "Classify GenAI use cases by domain area — distinguishing high-impact opportunities from overhyped applications"
+          ]
+        },
+        {
+          "id": "UNT-001-02",
+          "title": "The Consulting Context — GenAI Engineer in a Life Sciences Engagement",
+          "materials": [
+            {
+              "id": "MAT-001-02-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/ce7ba8ce-27c8-44f7-abb9-b1b369a1c688.html",
+              "type": "html",
+              "title": "The Consulting Context — GenAI Engineer in a Life Sciences Engagement (HTML)",
+              "source": "synthesized",
+              "document_id": "2a2778f9-eb76-4461-9289-f0cc0f7aed7b",
+              "source_document_ids": [
+                "2e1c381e-ecf9-4f71-9420-02b4e35749d1"
+              ]
+            },
+            {
+              "id": "MAT-001-02-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/9d13958c-4fda-42b5-8e59-02995c4fa4fe.flashcards.json",
+              "type": "flashcard",
+              "title": "The Consulting Context — GenAI Engineer in a Life Sciences Engagement (Flashcards)",
+              "source": "synthesized",
+              "document_id": "2d256f25-cfec-4fdb-9e9a-7564eb6e1443",
+              "source_document_ids": [
+                "2e1c381e-ecf9-4f71-9420-02b4e35749d1"
+              ]
+            },
+            {
+              "id": "MAT-001-02-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/9886504c-a4e7-45e2-856d-f2a32edefb1a.md",
+              "type": "md",
+              "title": "The Consulting Context — GenAI Engineer in a Life Sciences Engagement — Unit Brief",
+              "source": "synthesized",
+              "document_id": "9886504c-a4e7-45e2-856d-f2a32edefb1a",
+              "source_document_ids": [
+                "2e1c381e-ecf9-4f71-9420-02b4e35749d1"
+              ]
+            }
+          ],
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Identify the expectations, boundaries, and responsibilities of a Generative AI Engineer operating in a regulated Life Sciences environment",
+            "Explain how domain knowledge shapes the quality and safety of GenAI outputs in clinical and regulatory workflows"
+          ]
+        }
+      ],
+      "pillar": "Domain Literacy",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Describe the role of Generative AI across key Life Sciences verticals — drug discovery, clinical trials, regulatory affairs, and pharmacovigilance",
+        "Identify the consulting implications of GenAI adoption for Agilisium engagements in Life Sciences client environments"
+      ]
+    },
+    {
+      "id": "MOD-002",
+      "title": "Practical GenAI Tools & Responsible Use in Life Sciences",
+      "units": [
+        {
+          "id": "UNT-002-01",
+          "title": "GenAI Tools in the Consulting Workflow",
+          "materials": [
+            {
+              "id": "MAT-002-01-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/d4c6ab35-cd3d-43ef-bbe0-518c19c5e42c.html",
+              "type": "html",
+              "title": "GenAI Tools in the Consulting Workflow (HTML)",
+              "source": "synthesized",
+              "document_id": "4b354dca-a2fd-45f1-b293-4c5ad1f7539a",
+              "source_document_ids": [
+                "18a9f929-b2b2-46e5-836a-cbb6de6b67c8"
+              ]
+            },
+            {
+              "id": "MAT-002-01-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/361c8b8f-10a7-49b7-86ab-a4c8b418ce89.flashcards.json",
+              "type": "flashcard",
+              "title": "GenAI Tools in the Consulting Workflow (Flashcards)",
+              "source": "synthesized",
+              "document_id": "50cb72be-0b1c-410e-b1f1-70dd80b51bbc",
+              "source_document_ids": [
+                "18a9f929-b2b2-46e5-836a-cbb6de6b67c8"
+              ]
+            },
+            {
+              "id": "MAT-002-01-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/54d7975e-6bed-4c4f-bfa9-dcf3ced7b82e.md",
+              "type": "md",
+              "title": "GenAI Tools in the Consulting Workflow — Unit Brief",
+              "source": "synthesized",
+              "document_id": "54d7975e-6bed-4c4f-bfa9-dcf3ced7b82e",
+              "source_document_ids": [
+                "18a9f929-b2b2-46e5-836a-cbb6de6b67c8"
+              ]
+            }
+          ],
+          "duration_hours": 0.875,
+          "learning_objectives": [
+            "Demonstrate effective use of GenAI tools (Claude, Copilot, Gemini) to accelerate real consulting tasks — drafting, summarising, and structuring Life Sciences deliverables",
+            "Apply prompt engineering patterns — role prompting, chain-of-thought, and few-shot examples — to improve output quality for domain-specific tasks"
+          ]
+        },
+        {
+          "id": "UNT-002-02",
+          "title": "Responsible AI — Ethics, Governance, and Risk in Life Sciences",
+          "materials": [
+            {
+              "id": "MAT-002-02-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/3fe1bd3a-093d-4fcb-8f60-5ad1266e0403.html",
+              "type": "html",
+              "title": "Responsible AI — Ethics, Governance, and Risk in Life Sciences (HTML)",
+              "source": "synthesized",
+              "document_id": "5cc9040a-ea05-4a64-83ed-1b77befe41a1",
+              "source_document_ids": [
+                "18a9f929-b2b2-46e5-836a-cbb6de6b67c8"
+              ]
+            },
+            {
+              "id": "MAT-002-02-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/9b9c4c38-c6ce-4de3-bd3e-9f304b9525dc.flashcards.json",
+              "type": "flashcard",
+              "title": "Responsible AI — Ethics, Governance, and Risk in Life Sciences (Flashcards)",
+              "source": "synthesized",
+              "document_id": "d035e0e7-7677-44aa-8a0d-123596ad0386",
+              "source_document_ids": [
+                "18a9f929-b2b2-46e5-836a-cbb6de6b67c8"
+              ]
+            },
+            {
+              "id": "MAT-002-02-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/c9443b7b-43d8-4525-b8b6-3c164af46a13.md",
+              "type": "md",
+              "title": "Responsible AI — Ethics, Governance, and Risk in Life Sciences — Unit Brief",
+              "source": "synthesized",
+              "document_id": "c9443b7b-43d8-4525-b8b6-3c164af46a13",
+              "source_document_ids": [
+                "18a9f929-b2b2-46e5-836a-cbb6de6b67c8"
+              ]
+            }
+          ],
+          "duration_hours": 0.875,
+          "learning_objectives": [
+            "Identify responsible AI principles and governance requirements relevant to regulated Life Sciences environments (patient safety, data privacy, regulatory compliance)",
+            "Evaluate a GenAI-generated output for hallucination risk, bias, and fitness for use in a clinical or regulatory context"
+          ]
+        }
+      ],
+      "pillar": "AI Literacy",
+      "duration_hours": 1.75,
+      "learning_objectives": [
+        "Apply prompt engineering techniques to produce accurate, context-aware outputs for Life Sciences consulting tasks — including regulatory summaries, clinical documentation, and stakeholder briefs",
+        "Evaluate GenAI tool outputs for accuracy, bias, and compliance risk within regulated Life Sciences contexts"
+      ]
+    },
+    {
+      "id": "MOD-003",
+      "title": "Delivering Measurable AI-Driven Outcomes in Life Sciences",
+      "units": [
+        {
+          "id": "UNT-003-01",
+          "title": "Defining and Measuring Outcomes for GenAI Engagements",
+          "materials": [
+            {
+              "id": "MAT-003-01-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/6b107356-f4f4-4c9a-a333-8dfe973fb5fd.html",
+              "type": "html",
+              "title": "Defining and Measuring Outcomes for GenAI Engagements (HTML)",
+              "source": "synthesized",
+              "document_id": "ac7071bc-56b9-419b-b6fe-fe7b631a35d9",
+              "source_document_ids": [
+                "9cf8c665-e494-4bec-ab2b-d78bbf4078d2"
+              ]
+            },
+            {
+              "id": "MAT-003-01-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/f76e6502-5998-4e9a-b21d-d13983fa6e62.flashcards.json",
+              "type": "flashcard",
+              "title": "Defining and Measuring Outcomes for GenAI Engagements (Flashcards)",
+              "source": "synthesized",
+              "document_id": "a92a5d9a-cc45-484d-b339-0ed966f5045d",
+              "source_document_ids": [
+                "9cf8c665-e494-4bec-ab2b-d78bbf4078d2"
+              ]
+            },
+            {
+              "id": "MAT-003-01-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/ea8b8f71-4e2b-41c6-bbc0-bf89db619055.md",
+              "type": "md",
+              "title": "Defining and Measuring Outcomes for GenAI Engagements — Unit Brief",
+              "source": "synthesized",
+              "document_id": "ea8b8f71-4e2b-41c6-bbc0-bf89db619055",
+              "source_document_ids": [
+                "9cf8c665-e494-4bec-ab2b-d78bbf4078d2"
+              ]
+            }
+          ],
+          "duration_hours": 0.875,
+          "learning_objectives": [
+            "Construct measurable success criteria for a GenAI initiative in a Life Sciences context — covering quality, speed, compliance, and stakeholder adoption dimensions",
+            "Distinguish between output metrics (what was delivered) and outcome metrics (what changed as a result) in the context of a GenAI consulting engagement"
+          ]
+        },
+        {
+          "id": "UNT-003-02",
+          "title": "Driving GenAI Initiatives to Completion",
+          "materials": [
+            {
+              "id": "MAT-003-02-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/84f46e91-2e1a-447d-8439-c4816eaa24fa.html",
+              "type": "html",
+              "title": "Driving GenAI Initiatives to Completion (HTML)",
+              "source": "synthesized",
+              "document_id": "9010df6d-59ef-4e81-8bf6-6507c340d6b3",
+              "source_document_ids": [
+                "579ca230-6247-4ab4-95a0-bc8e17e250ff"
+              ]
+            },
+            {
+              "id": "MAT-003-02-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/33698084-83f8-41b9-a369-a9f370d5eac5.flashcards.json",
+              "type": "flashcard",
+              "title": "Driving GenAI Initiatives to Completion (Flashcards)",
+              "source": "synthesized",
+              "document_id": "db08f8b9-29bc-4f23-bffe-439c3576fe86",
+              "source_document_ids": [
+                "579ca230-6247-4ab4-95a0-bc8e17e250ff"
+              ]
+            },
+            {
+              "id": "MAT-003-02-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/2c792778-cae5-471d-bc0b-edb2663dd080.md",
+              "type": "md",
+              "title": "Driving GenAI Initiatives to Completion — Unit Brief",
+              "source": "synthesized",
+              "document_id": "2c792778-cae5-471d-bc0b-edb2663dd080",
+              "source_document_ids": [
+                "579ca230-6247-4ab4-95a0-bc8e17e250ff"
+              ]
+            }
+          ],
+          "duration_hours": 0.875,
+          "learning_objectives": [
+            "Apply GenAI tools to monitor engagement progress, flag delivery risks, and automate status reporting in a Life Sciences project context",
+            "Evaluate lessons learned from a GenAI engagement to propose improvements for future delivery — grounded in domain-specific outcome evidence"
+          ]
+        }
+      ],
+      "pillar": "Outcome Oriented",
+      "duration_hours": 1.75,
+      "learning_objectives": [
+        "Design outcome definitions for GenAI consulting engagements using domain-relevant metrics — trial data quality, regulatory submission velocity, and clinical documentation accuracy",
+        "Evaluate the impact of GenAI adoption on delivery quality and client value using structured outcome frameworks"
+      ]
+    }
+  ],
+  "curriculum_id": "CUR-2026-001",
+  "assessment_ref": null,
+  "curriculum_ref": "generative_ai_engineer",
+  "pillars_covered": [
+    "Domain Literacy",
+    "AI Literacy",
+    "Outcome Oriented"
+  ],
+  "max_duration_hours": 7,
+  "total_duration_hours": 5
+}
