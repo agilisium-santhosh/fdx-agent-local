@@ -1,0 +1,390 @@
+{
+  "role": "Data Engineer",
+  "_meta": {
+    "role": "Data Engineer",
+    "total_units": 6,
+    "curriculum_id": "CUR-2025-001",
+    "last_saved_at": "2026-06-04T08:30:21.272Z",
+    "total_modules": 3,
+    "total_activities": 0
+  },
+  "title": "Data Engineer — Learning Path",
+  "domain": "Life Sciences",
+  "modules": [
+    {
+      "id": "MOD-001",
+      "title": "The Life Sciences Data Landscape",
+      "units": [
+        {
+          "id": "UNT-001-01",
+          "title": "Data Domains and Sources in Life Sciences",
+          "materials": [
+            {
+              "id": "MAT-001-01-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/6b263df7-d910-4241-a4b2-8e0b9c43d360.html",
+              "type": "html",
+              "title": "Data Domains and Sources in Life Sciences (HTML)",
+              "source": "synthesized",
+              "document_id": "ed310cb6-9af5-4387-a73c-d93305df89b8",
+              "source_document_ids": [
+                "4bc4ac7e-3023-491e-953e-f1b7e2175f84"
+              ]
+            },
+            {
+              "id": "MAT-001-01-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/570aae23-3f2b-4075-a440-cc7e7b4d8c59.flashcards.json",
+              "type": "flashcard",
+              "title": "Data Domains and Sources in Life Sciences (Flashcards)",
+              "source": "synthesized",
+              "document_id": "3f670d5f-25fb-48fc-b662-65ba09e6267d",
+              "source_document_ids": [
+                "4bc4ac7e-3023-491e-953e-f1b7e2175f84"
+              ]
+            },
+            {
+              "id": "MAT-001-01-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/289b14f3-0c81-4438-9549-a58c9d25e946.md",
+              "type": "md",
+              "title": "Data Domains and Sources in Life Sciences — Unit Brief",
+              "source": "synthesized",
+              "document_id": "289b14f3-0c81-4438-9549-a58c9d25e946",
+              "source_document_ids": [
+                "4bc4ac7e-3023-491e-953e-f1b7e2175f84"
+              ]
+            }
+          ],
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Identify the primary data domains in life sciences — clinical trials, pharmacovigilance, lab systems, and commercial data — and explain the role each plays in the data engineering pipeline",
+            "Classify common data sources (EDC systems, LIMS, CTMS, EHR, claims data) by their domain and typical data characteristics"
+          ]
+        },
+        {
+          "id": "UNT-001-02",
+          "title": "Data Governance and Regulatory Fundamentals for Data Engineers",
+          "materials": [
+            {
+              "id": "MAT-001-02-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/3b5f1fae-6b22-4fc0-9db1-6aa237aa59e4.html",
+              "type": "html",
+              "title": "Data Governance and Regulatory Fundamentals for Data Engineers (HTML)",
+              "source": "synthesized",
+              "document_id": "28b471df-b230-4551-a8c6-34e634d9e7f4",
+              "source_document_ids": [
+                "68a3802d-fabf-4135-8e76-4e0564efae0d"
+              ]
+            },
+            {
+              "id": "MAT-001-02-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/a3203646-e85d-40d2-8388-8abac56983aa.flashcards.json",
+              "type": "flashcard",
+              "title": "Data Governance and Regulatory Fundamentals for Data Engineers (Flashcards)",
+              "source": "synthesized",
+              "document_id": "02ea73ac-f432-4000-a320-40f49b63f37f",
+              "source_document_ids": [
+                "68a3802d-fabf-4135-8e76-4e0564efae0d"
+              ]
+            },
+            {
+              "id": "MAT-001-02-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/cb42bb06-954c-455d-891e-64f86e45b179.md",
+              "type": "md",
+              "title": "Data Governance and Regulatory Fundamentals for Data Engineers — Unit Brief",
+              "source": "synthesized",
+              "document_id": "cb42bb06-954c-455d-891e-64f86e45b179",
+              "source_document_ids": [
+                "68a3802d-fabf-4135-8e76-4e0564efae0d"
+              ]
+            }
+          ],
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Describe the key regulatory frameworks governing life sciences data (FDA 21 CFR Part 11, GCP, GDPR) and their implications for data engineering practice",
+            "Explain how data quality, audit trails, and access controls are enforced in regulated life sciences environments"
+          ]
+        }
+      ],
+      "pillar": "Domain Literacy",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Identify the key data domains, sources, and data types encountered across pharmaceutical, biotech, and clinical research environments",
+        "Describe the regulatory and governance requirements that shape how data is collected, stored, and used in life sciences organisations"
+      ]
+    },
+    {
+      "id": "MOD-002",
+      "title": "AI Tools for Data Engineering Workflows",
+      "units": [
+        {
+          "id": "UNT-002-01",
+          "title": "Using GenAI Tools in Daily Data Engineering Practice",
+          "materials": [
+            {
+              "id": "MAT-002-01-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/859297aa-b4ea-43c7-ba66-d404896c50a5.html",
+              "type": "html",
+              "title": "Using GenAI Tools in Daily Data Engineering Practice (HTML)",
+              "source": "synthesized",
+              "document_id": "556f2ddc-8728-4905-adbf-ed15aa911ba5",
+              "source_document_ids": [
+                "1fd5496b-cd93-49ff-9392-dd792f945ec2"
+              ]
+            },
+            {
+              "id": "MAT-002-01-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/819683e3-01f0-42fa-9c60-2e8b8e2c0800.flashcards.json",
+              "type": "flashcard",
+              "title": "Using GenAI Tools in Daily Data Engineering Practice (Flashcards)",
+              "source": "synthesized",
+              "document_id": "425a1525-28ed-4abb-9209-a74632803ceb",
+              "source_document_ids": [
+                "1fd5496b-cd93-49ff-9392-dd792f945ec2"
+              ]
+            },
+            {
+              "id": "MAT-002-01-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/3fc44bed-8407-437b-ae62-35a7d8161959.md",
+              "type": "md",
+              "title": "Using GenAI Tools in Daily Data Engineering Practice — Unit Brief",
+              "source": "synthesized",
+              "document_id": "3fc44bed-8407-437b-ae62-35a7d8161959",
+              "source_document_ids": [
+                "1fd5496b-cd93-49ff-9392-dd792f945ec2"
+              ]
+            }
+          ],
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Demonstrate how to use GenAI tools (Claude, GitHub Copilot, ChatGPT) to draft SQL queries, generate data pipeline documentation, and accelerate code review in a life sciences context",
+            "Apply effective prompt engineering patterns to get accurate, contextually relevant outputs for data engineering tasks"
+          ]
+        },
+        {
+          "id": "UNT-002-02",
+          "title": "AI-Assisted Data Quality Monitoring and Output Evaluation",
+          "materials": [
+            {
+              "id": "MAT-002-02-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/c47e8d81-3bf7-433d-b037-02ba2222573f.html",
+              "type": "html",
+              "title": "AI-Assisted Data Quality Monitoring and Output Evaluation (HTML)",
+              "source": "synthesized",
+              "document_id": "d13cb937-1060-4738-ac00-8fdcf6132704",
+              "source_document_ids": [
+                "579ca230-6247-4ab4-95a0-bc8e17e250ff"
+              ]
+            },
+            {
+              "id": "MAT-002-02-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/500aff43-8119-40c3-9085-2b40c6f06563.flashcards.json",
+              "type": "flashcard",
+              "title": "AI-Assisted Data Quality Monitoring and Output Evaluation (Flashcards)",
+              "source": "synthesized",
+              "document_id": "131747c3-2a16-4b46-92be-ceae0b2f961f",
+              "source_document_ids": [
+                "579ca230-6247-4ab4-95a0-bc8e17e250ff"
+              ]
+            },
+            {
+              "id": "MAT-002-02-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/0b5b57b1-aca5-4a82-86ff-1b171753508f.md",
+              "type": "md",
+              "title": "AI-Assisted Data Quality Monitoring and Output Evaluation — Unit Brief",
+              "source": "synthesized",
+              "document_id": "0b5b57b1-aca5-4a82-86ff-1b171753508f",
+              "source_document_ids": [
+                "579ca230-6247-4ab4-95a0-bc8e17e250ff"
+              ]
+            }
+          ],
+          "duration_hours": 0.75,
+          "learning_objectives": [
+            "Describe how AI tools can be used to surface data anomalies, flag quality issues, and support monitoring of clinical and regulatory datasets",
+            "Evaluate AI-generated outputs critically — identifying hallucinations, gaps, and compliance risks before using them in regulated workflows"
+          ]
+        }
+      ],
+      "pillar": "AI Literacy",
+      "duration_hours": 1.5,
+      "learning_objectives": [
+        "Apply GenAI tools to accelerate common data engineering tasks including documentation, SQL query drafting, and pipeline troubleshooting",
+        "Evaluate AI-generated outputs for accuracy and fitness for purpose within regulated life sciences data environments"
+      ]
+    },
+    {
+      "id": "MOD-003",
+      "title": "Diagnosing and Solving Data Pipeline Challenges in Life Sciences",
+      "units": [
+        {
+          "id": "UNT-003-01",
+          "title": "Root-Cause Analysis for Data Pipeline Failures",
+          "materials": [
+            {
+              "id": "MAT-003-01-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/ced928ee-ee47-4622-bcd3-4076e4fca0a3.html",
+              "type": "html",
+              "title": "Root-Cause Analysis for Data Pipeline Failures (HTML)",
+              "source": "synthesized",
+              "document_id": "99879f33-29f7-4eff-8313-64262d4e4eb7",
+              "source_document_ids": [
+                "141b3180-bbbc-424e-b055-343ad1afef03"
+              ]
+            },
+            {
+              "id": "MAT-003-01-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/90ec3426-41da-4e45-ac3b-9fda1a99a23d.flashcards.json",
+              "type": "flashcard",
+              "title": "Root-Cause Analysis for Data Pipeline Failures (Flashcards)",
+              "source": "synthesized",
+              "document_id": "08ac3501-6a60-40be-aa55-d2b4c161576b",
+              "source_document_ids": [
+                "141b3180-bbbc-424e-b055-343ad1afef03"
+              ]
+            },
+            {
+              "id": "MAT-003-01-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/116effad-353a-4d6a-b941-a22c7ad4effa.md",
+              "type": "md",
+              "title": "Root-Cause Analysis for Data Pipeline Failures — Unit Brief",
+              "source": "synthesized",
+              "document_id": "116effad-353a-4d6a-b941-a22c7ad4effa",
+              "source_document_ids": [
+                "141b3180-bbbc-424e-b055-343ad1afef03"
+              ]
+            }
+          ],
+          "duration_hours": 1,
+          "learning_objectives": [
+            "Apply a structured root-cause analysis framework to diagnose common data pipeline failures — including schema drift, ingestion errors, and transformation anomalies — using life sciences data scenarios (e.g. clinical trial data delays, missing safety signals)",
+            "Distinguish between upstream data source issues, pipeline logic failures, and downstream delivery problems in a regulated data environment"
+          ]
+        },
+        {
+          "id": "UNT-003-02",
+          "title": "AI-Assisted Diagnosis and Remediation Planning",
+          "materials": [
+            {
+              "id": "MAT-003-02-01",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/fd646ffa-a382-4adb-96ee-b18d2d6e8773.html",
+              "type": "html",
+              "title": "AI-Assisted Diagnosis and Remediation Planning (HTML)",
+              "source": "synthesized",
+              "document_id": "2bc61a86-0518-47f4-bf9b-dc595f0cc49e",
+              "source_document_ids": [
+                "60d91dec-7547-490e-8554-e01a57d884c6"
+              ]
+            },
+            {
+              "id": "MAT-003-02-02",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/e721b475-36ec-4771-9e54-eb0ead292052.flashcards.json",
+              "type": "flashcard",
+              "title": "AI-Assisted Diagnosis and Remediation Planning (Flashcards)",
+              "source": "synthesized",
+              "document_id": "b27a314d-35ff-4792-8153-def4d465646f",
+              "source_document_ids": [
+                "60d91dec-7547-490e-8554-e01a57d884c6"
+              ]
+            },
+            {
+              "id": "MAT-003-02-03",
+              "url": "https://fdx-dev-bucket.s3.us-west-2.amazonaws.com/kb/synthesized/2026/06/ece7cbdf-22f8-4d23-9a90-18e4ccdf578d.md",
+              "type": "md",
+              "title": "AI-Assisted Diagnosis and Remediation Planning — Unit Brief",
+              "source": "synthesized",
+              "document_id": "ece7cbdf-22f8-4d23-9a90-18e4ccdf578d",
+              "source_document_ids": [
+                "60d91dec-7547-490e-8554-e01a57d884c6"
+              ]
+            }
+          ],
+          "duration_hours": 1,
+          "learning_objectives": [
+            "Demonstrate how to use GenAI tools to accelerate pipeline troubleshooting — analysing error logs, generating hypotheses, and drafting remediation steps within a life sciences compliance context",
+            "Evaluate proposed remediation options against regulatory and data quality constraints, selecting the most appropriate fix for the business and compliance impact at stake"
+          ]
+        }
+      ],
+      "pillar": "Problem Solving",
+      "duration_hours": 2,
+      "learning_objectives": [
+        "Analyse data pipeline failures in life sciences contexts — identifying root causes across ingestion, transformation, and delivery stages using structured diagnostic approaches",
+        "Apply AI-assisted techniques to accelerate root-cause analysis and propose remediation strategies for data quality and pipeline issues in clinical and regulatory workflows",
+        "Construct a structured problem-resolution approach that connects pipeline failures to downstream business and compliance impact"
+      ]
+    }
+  ],
+  "curriculum_id": "CUR-2025-001",
+  "assessment_ref": null,
+  "curriculum_ref": "data_engineer",
+  "pillars_covered": [
+    "Domain Literacy",
+    "AI Literacy",
+    "Problem Solving"
+  ],
+  "capstone_projects": [
+    {
+      "id": "9e4d2c1a-3b5f-4a7e-8c9d-0f1e2d3c4b5a",
+      "title": "Compliance-Ready Pipeline Audit",
+      "difficulty": "Synthesis",
+      "estimated_hours": 1,
+      "expected_result": "A structured audit report mapping each identified issue to its failure zone (upstream / pipeline / downstream), with proposed remediation steps and compliance status for each finding.",
+      "problem_statement": "A pharma company's clinical trial data pipeline has failed a compliance review. You have been handed the pipeline documentation, schema history, and audit logs. Diagnose the root causes, apply AI-assisted analysis, and produce a regulatory-ready audit findings document.",
+      "pillars_emphasized": [
+        "Domain Literacy",
+        "AI Literacy",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "2f8e7d6c-5b4a-4c3b-9d8e-7f6e5d4c3b2a",
+      "title": "AI-Assisted Pharmacovigilance Data Triage",
+      "difficulty": "Application",
+      "estimated_hours": 0.75,
+      "expected_result": "A triage summary classifying anomalies by type and severity, with remediation recommendations and a compliance risk rating for each issue, documented for regulatory review.",
+      "problem_statement": "A batch of pharmacovigilance data has arrived with anomalies. Use GenAI tools to synthesize the error patterns, classify them by severity, and recommend which issues require immediate human expert review versus automated remediation — with full auditability.",
+      "pillars_emphasized": [
+        "AI Literacy",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "5c3b2a1f-9e8d-4b7c-6a5b-4c3d2e1f0a9b",
+      "title": "Life Sciences Data Source Map and Governance Proposal",
+      "difficulty": "Application",
+      "estimated_hours": 0.75,
+      "expected_result": "A data source classification matrix and a governance framework outline covering access controls, audit trail requirements, and data quality checks for each source type.",
+      "problem_statement": "A new clinical trial has kicked off. Map all incoming data sources (EDC, LIMS, CTMS, EHR, claims) to their domains, classify them by data type and regulatory constraints, and propose a governance framework for the pipeline.",
+      "pillars_emphasized": [
+        "Domain Literacy",
+        "Problem Solving"
+      ]
+    },
+    {
+      "id": "7a1b2c3d-4e5f-6a7b-8c9d-0e1f2a3b4c5d",
+      "title": "Regulatory Data Quality Assessment with AI",
+      "difficulty": "Application",
+      "estimated_hours": 0.75,
+      "expected_result": "A compliance-annotated data quality report flagging issues against 21 CFR Part 11 requirements, with a prioritised remediation plan and documentation trail ready for regulatory submission.",
+      "problem_statement": "You have received a batch of clinical trial data ahead of a regulatory submission. Use AI tools to assess data quality against FDA 21 CFR Part 11 requirements, flag non-compliant records, and draft a prioritised remediation plan with a documented audit trail.",
+      "pillars_emphasized": [
+        "Domain Literacy",
+        "AI Literacy"
+      ]
+    },
+    {
+      "id": "3d4e5f6a-7b8c-9d0e-1f2a-3b4c5d6e7f8a",
+      "title": "Schema Drift Incident Response Plan",
+      "difficulty": "Synthesis",
+      "estimated_hours": 1,
+      "expected_result": "A documented incident response plan covering diagnosis steps, schema drift findings, AI-assisted analysis outputs, remediation timeline, and a post-incident review summary.",
+      "problem_statement": "You are on-call when a production clinical data pipeline begins failing. Error logs show schema drift across three source systems simultaneously. Design a structured response — from initial diagnosis through remediation — using both RCA frameworks and AI-assisted log analysis.",
+      "pillars_emphasized": [
+        "Domain Literacy",
+        "AI Literacy",
+        "Problem Solving"
+      ]
+    }
+  ],
+  "max_duration_hours": 10,
+  "total_duration_hours": 5
+}
